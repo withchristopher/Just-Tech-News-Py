@@ -1,2 +1,1 @@
-## Just Tech News - Python backend edition
-
+## Just Tech News - Python Backend Edition
