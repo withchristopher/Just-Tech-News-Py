@@ -10,11 +10,7 @@ def create_app(test_config=None):
     app.config.from_mapping(
         SECRET_KEY='super_secret_key'
     )
-
-    @app.route('/hello')
-    def hello():
-        return 'hello world'
-
+    
     app.register_blueprint(home)
     app.register_blueprint(dashboard)
     app.register_blueprint(api)
